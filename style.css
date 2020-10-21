@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: mifuente;
+    src: url(fonts/letra-1.ttf);
+}
+.nombre {
+   font-family: mifuente;
+    font-size: 100px; font-weight: 600px; line-height: 80px;
+    color: #E8471E;
+    margin: 300px auto;
+}
+
+.nav-link {color: #195628;}
+.nav-link:hover {color: #195628;}
+.navbar-brand {color: #195628;}
+.navbar-brand:hover {color: #195628;}
+
+p {
+	font-size: 30px;
+	color: white;
+	line-height: 1.8;
+    padding: 0 auto;
+    
+}
+body {
+    margin: auto;
+}
+.centrar {
+    text-align: center;
+}
+
+#hero {
+    background-image: url(img/yo.jpg);
+    background-size: cover;
+    padding-top: 500px;
+    min-height: 700px;
+    text-align: center;
+    }
+
+h1 {
+        color: white;
+    }
+.verde {
+    background-color: #195628;
+    text-align: center;
+    height: 270px;
+}
+.bio {
+    text-align: justify;
+}
+
+.hobbies {
+    color: #E8471E;
+    text-align: center;
+}
+
+.letrav {
+    color:  #195628;
+    text-align: center;
+}
+.tecnicas {
+    text-align: center;
+    color: #E8471E;
+    font-size: 60px;
+}
+
+$('.carousel').carousel({
+    interval: 2000
+  })
